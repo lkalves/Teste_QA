@@ -4,7 +4,7 @@ from selenium.webdriver import Chrome
 
 @fixture
 def browser_chrome(context):
-    context.browser = Chrome("D:/chromedriver/chromedriver.exe")
+    context.browser = Chrome()
     yield context.browser
     context.browser.quit()
 
