@@ -1,7 +1,7 @@
-# Teste_QA
+# Teste QA
  Repositorio de automatização
 
-### Para os teste será necessário ter o chromedriver já instalado nas variaveis de ambiente. 
+### Para os testes será necessário ter o chromedriver já instalado nas variaveis de ambiente. 
 ### Caso contrario será necessário apontar no arquivo `environment.py` dentro da função 
 ### `browser_chrome`
 ### [```context.browser = Chrome("D:/chromedriver/chromedriver.exe")```](https://github.com/lkalves/Teste_QA/blob/main/integrations/features/environment.py#L7)
