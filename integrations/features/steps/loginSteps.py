@@ -1,7 +1,7 @@
 from selenium.webdriver.common.keys import Keys
 from behave import *
 
-from elements.loginElements import LoginElements, ForgotPassword, SignupUser
+from integrations.elements.loginElements import LoginElements, ForgotPassword, SignupUser
 
 loginElements = LoginElements()
 forgotPassword = ForgotPassword()
