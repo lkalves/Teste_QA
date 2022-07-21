@@ -3,6 +3,9 @@ from selenium.webdriver.common.by import By
 
 class LoginElements:
     def __init__(self):
+        self.formSenha = None
+        self.formLogin = None
+        self.visualizarPaginaInicio = None
         self.url = 'https://facebook.com'
         self.email = 'EMAIL'
         self.senha = 'SENHA'
